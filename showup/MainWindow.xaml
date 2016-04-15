@@ -4,9 +4,37 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:showup"
+        xmlns:igDock="http://infragistics.com/DockManager"
         mc:Ignorable="d"
+        Loaded="OnLoaded"
         Title="MainWindow" Height="768" Width="1024">
-    <Grid>
-        
-    </Grid>
+
+    <igDock:XamDockManager Theme="IGTheme" LayoutMode="FillContainer">
+        <igDock:XamDockManager.Panes>
+            <igDock:SplitPane igDock:XamDockManager.InitialLocation="DockedBottom" Height="400">
+                <!-- TabGroupPane containing 3 ContentPanes -->
+                <igDock:TabGroupPane>
+                    <igDock:ContentPane x:Name="bottomEdgeDock1"
+                                    Header="f" AllowClose="False">
+                    </igDock:ContentPane>
+                    <igDock:ContentPane x:Name="bottomEdgeDock2" Header="g">
+                    </igDock:ContentPane>
+                    <igDock:ContentPane x:Name="bottomEdgeDock3" Header="h">
+                    </igDock:ContentPane>
+                </igDock:TabGroupPane>
+            </igDock:SplitPane>
+            <igDock:SplitPane igDock:XamDockManager.InitialLocation="DockedLeft" Width="800">
+                <igDock:ContentPane x:Name="leftEdgeDock" Header="::: 소스리스트 :::" AllowClose="False" />
+            </igDock:SplitPane>
+
+            <igDock:SplitPane igDock:XamDockManager.InitialLocation="DockedRight">
+                <igDock:ContentPane x:Name="rightEdgeDock" Header="::: 모니터 :::" AllowDockingBottom="False" AllowDockingFloating="True" AllowDockingLeft="True" AllowDockingRight="True" AllowDockingTop="False" AllowFloatingOnly="True" AllowInDocumentHost="False" CloseButtonVisibility="Visible" AllowClose="False" />
+            </igDock:SplitPane>
+
+            <!-- Bottom Dock Area ===================================================================== -->
+            <!-- Add a SplitPane with a single TabGroupPane that contains multiple ContentPanes. -->
+
+        </igDock:XamDockManager.Panes>
+    </igDock:XamDockManager>
+
 </Window>

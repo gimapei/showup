@@ -28,5 +28,11 @@ namespace showup
             InitializeComponent();
             log.Debug(":::: 콤포넌트 등록 완료 :::");
         }
+
+        private void OnLoaded(object sender, EventArgs e)
+        {
+            this.WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            this.WindowState = WindowState.Maximized;
+        }
     }
 }
