@@ -36,6 +36,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="InfragisticsWPF4.DockManager.v15.2, Version=15.2.20152.2100, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
+    <Reference Include="InfragisticsWPF4.v15.2, Version=15.2.20152.2100, Culture=neutral, PublicKeyToken=7dd5c3163f2cd0cb, processorArchitecture=MSIL" />
     <Reference Include="log4net">
       <HintPath>Lib\log4net-1.2.15\bin\net\4.5\release\log4net.dll</HintPath>
     </Reference>
