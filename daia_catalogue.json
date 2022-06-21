@@ -1,0 +1,13 @@
+{
+    "name": "DAIA Lab commercial catalogue",
+    "updated_at": "2022-06-21T21:17:04.967Z",
+    "modules": [{
+        "id": "@daiahub/thearray",
+        "version": "1.0.9",
+        "description": "Split array messages to single message",
+        "updated_at": "2022-05-20T21:04:28.459Z",
+        "types": ["thearray"],
+        "keywords": ["iocatcher", "node-red", "array", "daialab"],
+        "url": "https://github-registry-files.githubusercontent.com/491348496/ec5cf480-d7da-11ec-99c8-e74b5587a96f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20220621%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220621T023049Z&X-Amz-Expires=300&X-Amz-Signature=154302e92a7b1bb503b47c3405c586af9c5364e60644a98760cdfe76ce93547a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=491348496&response-content-disposition=filename%3Dthearray-1.0.9-npm.tgz&response-content-type=application%2Foctet-stream"
+    }]
+}
